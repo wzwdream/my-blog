@@ -29,3 +29,4 @@ jobs:
         with:
           branch: pages
           folder: docs
+          token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
