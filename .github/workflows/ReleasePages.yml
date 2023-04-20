@@ -28,5 +28,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: pages
-          folder: docs
+          folder: docs/.vitepress/dist
           token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
