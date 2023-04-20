@@ -28,6 +28,7 @@ export default defineConfig({
   lang: 'zh-cn',
   title: '树深遇鹿',
   description: '生活不可能像你想象的那么好，但也不会像你想象的那么糟',
+  base: './',
   vite: {
     optimizeDeps: {
       include: ['element-plus'],
